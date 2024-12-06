@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    padding-top: 100px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,230,244,1) 100%);
+}
+
+.cnt-section{
+    justify-content: space-between;
+}
+
+.contact_container{
+    width: 900px;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    border-radius: 20px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,230,244,1) 100%);
+}
+  
+.img_section{
+    justify-content: center; 
+    display: flex;
+    width: 400px;
+    height: 600px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.img_contact{
+    height: 620px;
+    width: 400px;
+    margin-right: 0;
+    margin-left: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+h2{
+    margin: 5px 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.complete_section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.title_box {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.submit-button {
+    background-color: #48b2a8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.submit-button:hover {
+    background-color: #67C6E3;
+}
+
+.contact-info{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    margin-left: 250px;
+    margin-right: auto;
+}
+
+h4 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+
+.elem_contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    grid-gap: 10px; 
+    align-items: center;
+}
+
+.icons-img{
+    height: 20px;
+    width: 20px;
+}
+
+.icons-img:hover{
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+
+.fb-ig{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: baseline;
+    margin-left: 75px; 
+}
+
+.fb, .ig{
+    display: flex;
+    align-items: center;
+}
+
+.fb img {
+    margin-right: 5px; 
+}
+
+.mail{
+    justify-content: baseline;
+    text-align: left;
+    margin-left: 60px; 
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #48b2a8; 
+  }

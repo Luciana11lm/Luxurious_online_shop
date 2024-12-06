@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.product_page{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,230,244,1) 100%);  
+  height: 800px;
+  width: 100%;
+  padding-top: 85px;
+}
+
+.product_container{
+  margin-left: 250px;
+  margin-top: 30px;
+  justify-content: centre;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  border: 10px;
+  border-radius: 35px;
+}
+
+.card__image {
+  object-fit: fill;
+  width: 470px;
+  height: 600px;
+  border-radius: 25px;
+  zoom: normal;
+  box-shadow: 0px 15px 20px rgba(176, 184, 193, 0.4);
+}
+
+.card__info{
+  justify-content: baseline;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+.card__title {
+  font-size: 50px;
+  white-space: nowrap;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.card__material__color{
+  display: flex;
+  padding: 8px;
+  justify-content: baseline;
+  list-style-type: none;
+  margin-left:45px;
+}
+
+.card__image__material{
+  width: 30px;
+  height: 30px;
+  border-radius: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card__image__material:hover{
+  width: 32px;
+  height: 33px;
+  border-radius: 80px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border: 2px;
+  border-style: double;
+  border-color:lightblue;
+}
+
+.card__description {
+  font-size: 1rem;
+  color: #666;
+  font-size: 10px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.card__material{
+  margin-top: 2px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 15px;
+  color: #adb5bd;
+}
+
+.product_btn{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.card__buy{
+  white-space: nowrap;
+}
+
+.card__buy-btn {
+  margin-top: 25px;
+  margin-right: 20px;
+  margin-left: 10px;
+  width:160px;
+  height: 30px;
+  padding: 8px 3em;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  justify-content: baseline;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+}
+
+.card__buy-btn:hover {
+  background-color: lightblue;
+  box-shadow: 0px 15px 20px rgba(46, 125, 229, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+#wish__btn:hover{
+  background-color: pink;
+  box-shadow: 0px 15px 20px rgba(240, 85, 157, 0.499);
+}
+
+.card__buy-btn:active {
+  transform: translateY(-1px);
+}
+
+

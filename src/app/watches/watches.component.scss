@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.page__components{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,230,244,1) 100%); 
+  padding-top: 80px;
+  position: relative;
+}
+
+.page__img{
+  position: absolute;
+  top: -50px;
+  left: 500px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: -35px;
+  margin-top: 180px;
+  }
+
+.cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  table-layout: auto;
+}
+
+.card {
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(239, 245, 250) 0%, rgb(240, 246, 249) 90%);;
+  width: 250px; 
+  height: 400px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card__image {
+  object-fit: fill;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 25px;
+  zoom: normal;
+  box-shadow: 0px 15px 20px rgba(176, 184, 193, 0.4);
+}
+
+.card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.card__description {
+  font-size: 1rem;
+  color: #666;
+  font-size: 10px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.card__material{
+  margin-top: 2px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.card__price{
+  margin-top: 2px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.card__buy-btn {
+  margin-left: 46px;
+  margin-top: 5px;
+  width:160px;
+  height: 30px;
+  padding: 8px 3em;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  justify-content: baseline;
+  font-family: "Italiana", sans-serif;
+  font-weight: 200;
+}
+
+.card__buy-btn:hover {
+  background-color: #52baff;
+  box-shadow: 0px 15px 20px rgba(46, 125, 229, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.card__buy-btn:active {
+  transform: translateY(-1px);
+}

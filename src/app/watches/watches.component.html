@@ -1,0 +1,18 @@
+
+<div class="page__components">
+<img class="page__img" src="../../assets/TITLE_W.png">
+<div class="products"> 
+  <ul class="cards">
+    <li *ngFor="let watch of WatchesList">
+      <div class="card">
+        <img [src]="watch.photo" class="card__image">
+        <h3 class="card__title">{{watch.name}}</h3>
+        <p class="card__description">{{watch.description}}</p>
+        <h4 class="card__material">{{watch.material}}</h4>
+        <h4 class="card__price">{{watch.price}}</h4>
+        <a (click)="edit(watch.index-1)"><button class="card__buy-btn"><p class="card__buy">See More</p></button></a>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>

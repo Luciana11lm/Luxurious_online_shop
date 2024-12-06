@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: 'Italiana-Regular';
+  src: url('./assets/fonts/Italiana-Regular.ttf') format(truetype);
+  font-family: 'Sedan-Regular';
+  src: url('./assets/fonts/Sedan-Regular.ttf') format(truetype);
+  font-family: 'Sedan-Italic';
+  src: url('./assets/fonts/Sedan-Italic.ttf') format(truetype);
+}
+
+//@font-face {
+//  
+//}
+//
+//@font-face {
+//  
+//}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Italiana-Regular; }

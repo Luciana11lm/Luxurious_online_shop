@@ -1,0 +1,140 @@
+.log_in_page{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,230,244,1) 100%);  
+  height: 1000px;
+}
+
+.log-in-section{
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.sign_up_section{
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.log-in_container{
+    width: 900px;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    border-radius: 20px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,230,244,1) 100%);
+}
+  
+.img_section{
+    justify-content: center; 
+    display: flex;
+    width: 400px;
+    height: 600px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.img_contact{
+    height: 620px;
+    width: 400px;
+    margin-right: 0;
+    margin-left: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+h2{
+    margin: 5px 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.complete_section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.title_box {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.submit-button {
+    background-color: #48b2a8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.submit-button:hover {
+    background-color: #67C6E3;
+}
+
+.no_acc {
+    margin-top: 10px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 13px;
+}
+
+.no_acc_btn{
+    cursor: pinter;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #48b2a8;
+    margin-left: 4px;
+    font-size: 13px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: transparent;
+
+}

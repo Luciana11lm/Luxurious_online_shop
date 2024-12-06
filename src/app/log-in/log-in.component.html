@@ -1,0 +1,49 @@
+<div class ="log_in_page">
+  <div class="log-in-section" *ngIf="isSignInDivVisiblie">
+  <div class="log-in_container">
+    <section class="complete_section">
+      <h2 class="title_box">Welcome back!</h2>
+      <form action="#" method="POST">
+
+          <label for="email">Email: </label>
+          <input type="email" [(ngModel)]="logInObj.email"  id="email" name="email" required>
+
+          <label for="phone">Password: </label>
+          <input type="password" [(ngModel)]="logInObj.password" id="password" name="password" required>
+
+          <button type="submit" class="submit-button" (click)="onLogin()">Log In</button>
+      </form>
+      <p class="no_acc">Don't have an account?<button class="no_acc_btn" (click)="isSignInDivVisiblie = false" >Sign Up</button></p>
+  </section>
+      <div class="img_section">
+      <img class="img_contact" src="assets/login.jpeg">
+      </div>
+  </div>
+  </div>
+
+  <div class="sign_up_section" *ngIf="!isSignInDivVisiblie">
+    <div class="log-in_container">
+      <section class="complete_section">
+        <h2 class="title_box">Create an account</h2>
+        <form action="#" method="POST">
+  
+            <label for="name">Name: </label>
+            <input type="text" [(ngModel)]="signUpObj.name" id="name" name="name" required>
+  
+            <label for="email">Email: </label>
+            <input type="email" [(ngModel)]="signUpObj.email" id="email" name="email" required>
+  
+            <label for="phone">Password: </label>
+            <input type="password" [(ngModel)]="signUpObj.password" id="phone" name="phone">
+  
+            <button type="submit" class="submit-button" (click)="onRegister()">Log In</button>
+        </form>
+        <p class="no_acc">Already have an account?<button class="no_acc_btn" (click)="isSignInDivVisiblie = true">Sign In</button></p>
+    </section>
+        <div class="img_section">
+        <img class="img_contact" src="assets/sgn.jpeg">
+        </div>
+    </div>
+  </div>
+
+</div>

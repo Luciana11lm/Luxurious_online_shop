@@ -1,0 +1,25 @@
+<div class="header">
+  <img class="logo" src="assets/imgs/home/logo_v4.png" alt="logo">
+          <nav class="navv">
+              <ul class="nav_links">
+                <li><a routerLink="/home">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a routerLink="/contact">Contact</a></li>
+                <li class="toggle">
+                  <ul class="menu">
+                  <li><a routerLink="/watches">Watches</a></li>
+                  <li><a routerLink="/rings">Rings</a></li>
+                  <li>Gifts</li>
+                </ul><span class="bars"></span></li>
+              </ul>
+          </nav>
+          <div class="logs" *ngIf="!isLogged()">
+          <a class="cta" href="/login"><button>Log In</button></a>
+          <a class="cta" href="/login"><button>Sign Up</button></a>
+          </div> 
+          <div class="logs" *ngIf="isLogged()">
+            {{loggedUser?.email}}
+            <button class="btn-log-out" type="button" (click)="onLogoff()">Log Out</button>
+            </div> 
+          <img class="login" src="assets/imgs/home/new.png" >
+        </div>

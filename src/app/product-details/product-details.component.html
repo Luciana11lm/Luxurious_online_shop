@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<div class="product_page">
+    <div class="product_container">
+      <img [src]="product.photo" class="card__image">
+      <div class="card__info">
+        <h3 class="card__title">{{product.name}}</h3>
+        <ul class="card__material__color">
+          <li class="card__material">Select a color: </li>
+          <li *ngFor="let color of product.selectMaterial">
+            <img [src]="color" class="card__image__material">
+          </li>
+        </ul>
+        <p class="card__description">{{product.description}}</p>
+        <h4 class="card__material">{{product.price}}</h4>
+        <div class="product_btn">
+          <button class="card__buy-btn" mat-button (click)="openDialog()"><p class="card__buy">Add to Cart</p></button>
+          <button class="card__buy-btn" id="wish__btn"><p class="card__buy">Add to Wishlist</p></button>
+        </div>
+      </div>
+    </div>
+</div>
